@@ -17,72 +17,51 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Montserrat:wght@500&display=swap"
     rel="stylesheet">
-  <title>Catalogo</title>
+  <script src="/src/cards.js" async defer></script>
+  <title>Catálogo de Productos</title>
 </head>
 
 <body>
-  <div>
 
-    <!--Inicio Encabezado catalogo con imagen -->
-    <!-- <div class="row">
-      <div class="col-12 border" id="sobreNosotros">
-        <div class="card bg-dark text-white" id="cata">
-          <img src="/images/Catalogo (2).png" class="card-img" alt="titu">
-          <div class="card-img-overlay">
-            <h5 class="card-title">
-              <h1 id="titulosC">Catalodo de Productos</h1>
-            </h5>
-            <p class="card-text" id="parrafo">a</p>
-          </div>
+
+  <div class="fondo d-flex justify-content-left align-items-center">
+    <div id="titulos">Catálogo de productos</div>
+  </div>
+
+  <!-- Inicio tarjetas -->
+  <br><br>
+  <!--<div class="col-12  text-center">
+      <div class="container"> -->
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card shadow p-3 mb-3 bg-body rounded" id="tarjetas">
+        <img src="/images/Plantas.png" class="card-img-top" alt="Plantas">
+        <div class="card-body">
+          <h5 class="card-title" id="titulosC">Plantas</h5>
         </div>
       </div>
     </div>
-  </div> -->
-  <!--Final Encabezado catalogo con imagen -->
-
-  <!-- Encabezado Normal -->
-    <div class="row">
-      <div class="col-12 border" id="cata">
-        <h1 id="about-us"><b>CATALOGO</b></h1>
-      </div>
-    </div>
-    <!-- Final de Encabezado -->
-
-    <!-- Inicio tarjetas -->
-    <br><br>
-    <div class="col-12  text-center">
-      <div class="container">
-        <div>
-          <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-              <div class="card shadow p-3 mb-5 bg-body rounded" id="tarjetas">
-                <img src="/images/Plantas.png" class="card-img-top" alt="Plantas">
-                <div class="card-body">
-                  <h5 class="card-title" id="titulos">Plantas</h5>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow p-3 mb-5 bg-body rounded" id="tarjetas">
-                <img src="/images/Accesorios (2).jpg" class="card-img-top" alt="Accesorios">
-                <div class="card-body">
-                  <h5 class="card-title" id="titulos">Accesorios</h5>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow p-3 mb-5 bg-body rounded" id="tarjetas">
-                <img src="/images/Guiasdecuidado (2).png" class="card-img-top" alt="rip">
-                <div class="card-body">
-                  <h5 class="card-title" id="titulos">Guias de Cuidado</h5>
-                </div>
-              </div>
-            </div>
-          </div>
+    <div class="col">
+      <div class="card shadow p-3 mb-3 bg-body rounded" id="tarjetas">
+        <img src="/images/Accesorios (2).jpg" class="card-img-top" alt="Accesorios">
+        <div class="card-body">
+          <h5 class="card-title" id="titulosC">Accesorios</h5>
         </div>
       </div>
     </div>
-    <!-- Final tarjetas -->
+    <div class="col">
+      <div class="card shadow p-3 mb-3 bg-body rounded" id="tarjetas">
+        <img src="/images/Guiasdecuidado (2).png" class="card-img-top" alt="rip">
+        <div class="card-body">
+          <h5 class="card-title" id="titulosC">Guías de Cuidado</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- Final tarjetas -->
+  <div class="col-sm-12 container text-center">
+    <div class="row" id="container-cards"> 
 </body>
 
 </html>
